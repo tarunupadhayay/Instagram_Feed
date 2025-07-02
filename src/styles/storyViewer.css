@@ -1,0 +1,113 @@
+.story-viewer {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    z-index: 9999;
+  }
+  
+  
+  .story-gradient-top {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), transparent);
+    z-index: 1;
+  }
+  
+  .story-header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+  }
+  
+  .story-user-info {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .story-user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid white;
+  }
+  
+  .story-username {
+    font-weight: bold;
+    margin-right: 6px;
+  }
+  
+  .story-time {
+    font-size: 12px;
+  }
+  
+  .story-close-btn {
+    background: none;
+    color: white;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .story-full {
+    flex: 1;
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+  }
+  
+  .story-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 2;
+  }
+  
+  .story-controls button {
+    background: linear-gradient(to bottom, rgba(0,0,0,0), transparent);
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+
+  .story-progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+  }
+  
+  .story-progress-fill {
+    height: 100%;
+    background: white;
+    width: 100%;
+    animation: fill-progress 5s linear forwards;
+  }
+  
+  @keyframes fill-progress {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+  
+  

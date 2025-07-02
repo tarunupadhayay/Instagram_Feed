@@ -1,0 +1,13 @@
+.header {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    background: white;
+  }
+  
+  .logo {
+    height: 28px;
+  }
+  

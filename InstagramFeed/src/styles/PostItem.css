@@ -1,0 +1,29 @@
+.post-item {
+    background: white;
+    margin-bottom: 16px;   /* padding between posts */
+    border-top: 1px solid #efefef;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+  }
+  
+  .post-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .post-username {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .post-image {
+    width: 100%;
+    display: block;
+  }
+  

@@ -1,6 +1,6 @@
-# 📸 Instagram Stories Clone (React + TypeScript)
+# 📸 Scenne Stories (React + TypeScript)
 
-A simplified **Instagram Stories** feature built using **React.js** and **TypeScript** (with Vite).  
+A simplified **Scenne Stories** feature built using **React.js** and **TypeScript** (with Vite).  
 This project focuses on the **UI & user interaction**, closely matching Instagram's look and feel — fully responsive & mobile-first.
 
 ---
